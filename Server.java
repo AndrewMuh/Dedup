@@ -27,7 +27,6 @@ public class Server {
       System.out.println("6: Clear Database");
       System.out.println("7: Quit");
 
-
       String decision = in.next();
 
       switch (decision) {
