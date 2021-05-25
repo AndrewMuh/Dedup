@@ -4,7 +4,7 @@ import org.apache.commons.io.*;
 import java.io.*;
 
 /**
-* Database interface to be used in the Server. Only need 4 methods to implement
+* Database interface to be used in the Server. Only need 7 methods to implement
 */
 public interface Database {
   public void add(String file); // adds file to database
