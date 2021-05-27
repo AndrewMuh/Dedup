@@ -110,7 +110,7 @@ public class WholeFileDatabase implements Database, java.io.Serializable {
   public void getData() {
     System.out.println("KB Stored: " + KBStored);
     System.out.println("KB Deduped: " + KBDeduped);
-    System.out.println("Dedup Ratio = " + (KBDeduped / (KBStored + KBDeduped)) + "\n");
+    System.out.println("Dedup Ratio = " + ((KBDeduped + KBStored) / (KBStored)) + "\n");
   }
 
   public String getPath() {
