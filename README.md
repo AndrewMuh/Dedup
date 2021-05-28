@@ -1,4 +1,4 @@
-# Data Deduplication CS Project
+# Data Deduplication Demo
 
 ### Description
 
